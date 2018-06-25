@@ -21,8 +21,6 @@ description: > # this means to ignore newlines until "baseurl:"
   Boston-themed transit, bike, and urbanism thoughts and projects.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://example.com" # the base hostname & protocol for your site
-twitter_username: skyqrose
-github_username:  skyqrose
 
 # Build settings
 markdown: kramdown
