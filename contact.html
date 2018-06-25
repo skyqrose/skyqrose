@@ -2,31 +2,38 @@
 layout: page
 title: Contact
 permalink: /contact
+
+links:
+- icon: email
+  url: "mailto:"
+  username: "sky.q.rose@gmail.com"
+- icon: twitter
+  url: "https://www.twitter.com/"
+  username: skyqrose
+- icon: github
+  url: "https://www.github.com/"
+  username: skyqrose
+- icon: keybase
+  url: "https://keybase.io/"
+  username: skyqrose
+- icon: linkedin
+  url: "https://www.linkedin.com/in/"
+  username: sky-q-rose
+- icon: facebook
+  url: "https://www.facebook.com/"
+  username: sky.q.rose
+- icon: reddit
+  url: "https://reddit.com/u/"
+  username: qrsky
+- icon: instagram
+  url: "https://instagram.com/"
+  username: sky.q.rose
 ---
 <ul class="social-media-list">
-  <li>
-    {% include social.html icon="email" url="mailto:" username="sky.q.rose@gmail.com" %}
-  </li>
-  <li>
-    {% include social.html icon="twitter" url="https://www.twitter.com/" username="skyqrose" %}
-  </li>
-  <li>
-    {% include social.html icon="github" url="https://www.github.com/" username="skyqrose" %}
-  </li>
-  <li>
-    {% include social.html icon="keybase" url="https://keybase.io/" username="skyqrose" %}
-  </li>
-  <li>
-    {% include social.html icon="linkedin" url="https://www.linkedin.com/in/" username="sky-q-rose" %}
-  </li>
-  <li>
-    {% include social.html icon="facebook" url="https://facebook.com/" username="sky.q.rose" %}
-  </li>
-  <li>
-    {% include social.html icon="reddit" url="https://reddit.com/u/" username="qrsky" %}
-  </li>
-  <li>
-    {% include social.html icon="instagram" url="https://instagram.com/" username="skyqrose" %}
-  </li>
+  {% for link in page.links %}
+    <li>
+      {% include social.html icon=link.icon url=link.url username=link.username %}
+    </li>
+  {% endfor %}
 </ul>
 
