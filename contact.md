@@ -5,9 +5,9 @@ permalink: /contact
 ---
 
 * email: sky.q.rose@gmail.com
-* {% include icon-twitter.html username=site.twitter_username %}
-* {% include icon-github.html username=site.github_username %}
+* {% include social.html icon="twitter" url="www.twitter.com/" username="skyqrose" %}
+* {% include social.html icon="github" url="www.github.com/" username="skyqrose" %}
 * keybase: [skyqrose](keybase.io/skyqrose)
-* facebook: [sky.q.rose](facebook.com/sky.q.rose)
+* {% include social.html icon="facebook" url="facebook.com/" username="sky.q.rose" %}
 * reddit: [qrsky](reddit.com/u/qrsky)
-* instagram: skyqrose
+* {% include social.html icon="instagram" url="instagram.com/" username="skyqrose" %}
