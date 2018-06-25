@@ -1,8 +1,8 @@
-<a href="https://{{ include.url }}{{ include.username | cgi_escape }}">
-  <svg class="svg-icon">
+<a class="c-social" href="https://{{ include.url }}{{ include.username | cgi_escape }}">
+  <svg class="c-social__icon">
     <use xlink:href="{{ "/assets/social-icons.svg#" | append: include.icon }}"></use>
   </svg>
-  <span class="username">
+  <span class="c-social__username">
     {{ include.username }}
   </span>
 </a>

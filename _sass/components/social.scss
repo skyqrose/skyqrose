@@ -1,0 +1,20 @@
+.c-social {
+  padding-bottom: 5px;
+
+  &:hover {
+    text-decoration: none;
+
+    .c-social__username {
+      text-decoration: underline;
+    }
+  }
+}
+
+.c-social__icon {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  fill: #{$grey-color};
+  padding-right: 5px;
+  vertical-align: text-top;
+}

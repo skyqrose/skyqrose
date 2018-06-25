@@ -114,14 +114,6 @@ a {
     color: $text-color;
     text-decoration: underline;
   }
-
-  .social-media-list &:hover {
-    text-decoration: none;
-
-    .username {
-      text-decoration: underline;
-    }
-  }
 }
 
 
@@ -207,16 +199,6 @@ pre {
 /**
  * Icons
  */
-
-.svg-icon {
-    width: 16px;
-    height: 16px;
-    display: inline-block;
-    fill: #{$grey-color};
-    padding-right: 5px;
-    vertical-align: text-top;
-}
-
 .social-media-list {
   li + li {
     padding-top: 5px;
