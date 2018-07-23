@@ -29,6 +29,7 @@ GEM
       safe_yaml (~> 1.0)
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
+    jekyll-twitter-plugin (2.0.0)
     jekyll-watch (2.0.0)
       listen (~> 3.0)
     kramdown (1.17.0)
@@ -56,6 +57,7 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll (= 3.8.3)
+  jekyll-twitter-plugin
   jekyll-watch (= 2.0.0)
   ruby_dep
 
