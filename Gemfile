@@ -11,7 +11,6 @@ ruby RUBY_VERSION
 # Happy Jekylling!
 gem "jekyll", "3.8.3"
 gem "jekyll-watch", "2.0.0"
-gem "ruby_dep"
 gem 'jekyll-twitter-plugin'
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
