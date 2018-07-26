@@ -5,6 +5,7 @@ deploy:
   provider: pages
   skip_cleanup: true
   repo: skyqrose/skyqrose.github.io
+  target_branch: master
   local_dir: _site/
   keep_history: true
   allow_empty_commit: true
