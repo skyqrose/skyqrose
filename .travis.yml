@@ -1,2 +1,10 @@
 language: ruby
 script: bundle exec jekyll build
+after_success: touch _site/.nojekyll
+deploy:
+  provider: pages
+  skip_cleanup: true
+  local_dir: _site/
+  keep_history: true
+  allow_empty_commit: true
+  github_token: $GITHUB_TOKEN # set on travis-ci.com
