@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/skyqrose
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://www.skyqrose.com
+  * I am skyqrose (https://keybase.io/skyqrose) on keybase.
+  * I have a public key with fingerprint C25E E99F 27DD 5A0D 9204  E22D 27EA 4CA4 CB75 3498
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01019eaa85d368df7cb43f9b116bd0a7c8e9a8f5b1ef305daa9dbfda7f30d2909d170a",
+      "fingerprint": "c25ee99f27dd5a0d9204e22d27ea4ca4cb753498",
+      "host": "keybase.io",
+      "key_id": "27ea4ca4cb753498",
+      "kid": "01019eaa85d368df7cb43f9b116bd0a7c8e9a8f5b1ef305daa9dbfda7f30d2909d170a",
+      "uid": "1019e4de33b024694542cff39075d819",
+      "username": "skyqrose"
+    },
+    "service": {
+      "hostname": "www.skyqrose.com",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1532568406,
+  "expire_in": 157680000,
+  "prev": "35a9cc94ab6f1436c7929acadc56db8c176d1d29d8dafdd328f370fd1e6921e6",
+  "seqno": 34,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.77
+Comment: https://keybase.io/crypto
+
+yMIiAnicrVJtSBRBGD41zYTCKDIIoTajL7v2e3eukL4JoqCS7OjomJ2Z9Vbz9m53
+vUv6kOMiiNTjKoLQ6kAC8QryCEqCsrwsC4xIhIg+IAuLivrf1+yR//rZMMzwvvM8
+z7zPy5ufXeKpKDq1InclN2/8U9GTe92tngP+pfuOMJqJ2xjfEaaZFC5yCBPbCTYb
+mPExLMdygECoSliQVawrSBMFHWgcJ2uYhQpSCYCqLmkc0QVWwhACrOkYKjTCPGAB
+5hQWMrWMboQbiRWxjLBDZREvEQKAzisYS5DFgGdFwvOYVwgUEd2aIgkiUCkxZNou
+gxanQZt4DZPmaBAslPcP/H+uu7UgV1ATMREEjeVFGYiSyCNdFwCrSFjlgAu0iRWG
+LYSi7ea2qGXahDlWy9BszEDEbazr5C8iHo97p1FeZLZQfsQyHROZh+hryHEiPpfs
+tEUKaKIF/+oENSOMaSspIUYs2zDDjI+jSOQYrjAnCbwkqyIr1zLkcMSwSNBwEZIi
+qyxd7jckRiUFCQKEgAg1WedEQUYK4AFEECNJxpqKOEXGHG0EVjHUMRZ4VRcUVscc
+kQFPD8Z1Fg2bjE8QaZ2w0bVtNIah02pR3/eHAjM8RRWestJid8Y8FbMqpyfvbmLm
+b7OrQ12X8YYGlry+s35jumfLQJm3pq848GDkBEEvR6OVF5fNH0s1/JoaXjj56r1/
+7oy6iWzizPDivekpJdH5oz1b8xkuTcpHE73C0LZnW9e+sAMP9WTsx9XNofLvTiIP
+1/uvdWRXZlBtNv/1zrubD0sGS0929SeD5+aubhjXhNPN7en9qd2zW6vfJvvqnuf9
+I+fCTeWrXuCPo5ngiVQpGLM3DYdWRzOdB1/uT7U7vR/u34ouCgyZO8mlwZ7lg7uq
+d6y5HUj/fPNtz4Vj42MTA0cnc/mRuFKVeWws2rS9/njTow3zLtdViRFrwZp+6Wlw
+TsPGsxNbzh+un3/jS3fu+h+57UVK
+=BK1r
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/skyqrose
+
+==================================================================
