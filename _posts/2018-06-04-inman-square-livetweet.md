@@ -2,6 +2,8 @@
 layout: post
 title: "Livetweeting Cambridge City Council Vote on Inman Square"
 date: 2018-06-04
+thumbnail: http://pbs.twimg.com/media/De7kwG5UEAAcOeJ.jpg
+tweet: https://twitter.com/skyqrose/status/1003759515311984640
 ---
 
 On June 4, 2018 the Cambridge City Council voted on the Inman Square redesign. The vote was something procedural about asking the state for permission to rearrange Velucci Plaza, but as the first council vote on the project, the stakes were still high. I livetweeted the whole four hour meeting.
