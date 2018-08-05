@@ -1,7 +1,3 @@
-.post-list__heading {
-  @include relative-font-size(2);
-}
-
 .m-post-list__list {
   margin-left: 0;
   list-style: none;
@@ -11,7 +7,15 @@
   }
 }
 
-.m-post-list__link {
+.m-post-list__post {
+  border: 1px solid gray;
+  border-radius: 4px;
+  box-shadow: 2px 2px 1px gray;
   display: block;
-  @include relative-font-size(1.5);
+  padding: 1rem;
+
+  &:hover {
+    text-decoration: none;
+    box-shadow: 3px 3px 1px gray;
+  }
 }
