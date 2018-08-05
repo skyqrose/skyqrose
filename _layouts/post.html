@@ -19,6 +19,13 @@ layout: default
     {{ content }}
   </div>
 
+  {%- if page.tweet -%}
+    <a href="{{ page.tweet }}">
+      {% include social_icon.html icon="twitter" %}
+      See the discussion on twitter.
+    </a>
+  {%- endif -%}
+
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}
   {%- endif -%}
