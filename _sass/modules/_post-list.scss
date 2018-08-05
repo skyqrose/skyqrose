@@ -1,0 +1,17 @@
+.post-list__heading {
+  @include relative-font-size(2);
+}
+
+.m-post-list__list {
+  margin-left: 0;
+  list-style: none;
+
+  > li {
+    margin-bottom: $spacing-unit;
+  }
+}
+
+.m-post-list__link {
+  display: block;
+  @include relative-font-size(1.5);
+}
