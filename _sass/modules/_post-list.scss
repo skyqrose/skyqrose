@@ -12,10 +12,24 @@
   border-radius: 4px;
   box-shadow: 2px 2px 1px gray;
   display: block;
-  padding: 1rem;
+  max-width: 600px;
+  overflow: hidden;
 
   &:hover {
     text-decoration: none;
     box-shadow: 3px 3px 1px gray;
   }
+}
+
+.m-post-list__thumbnail {
+  border-bottom: 1px solid gray;
+}
+
+.m-post-list__text {
+  padding: 1rem;
+}
+
+.m-post-list__title {
+  font-size: 2rem;
+  font-weight: bold;
 }

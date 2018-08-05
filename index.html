@@ -8,10 +8,17 @@ layout: default
   {% for post in site.posts %}
     <li>
       <a class="m-post-list__post" href="{{ post.url | prepend: site.baseurl }}">
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <h2>
-          {{ post.title | escape }}
-        </h2>
+        {%- if post.thumbnail -%}
+          <img class="m-post-list__thumbnail" src="{{ post.thumbnail }}"></img>
+        {%- endif -%}
+        <div class="m-post-list__text">
+          <div class="m-post-list__title">
+            {{ post.title | escape }}
+          </div>
+          <div class="post-meta">
+            {{ post.date | date: "%b %-d, %Y" }}
+          </div>
+        </div>
       </a>
     </li>
   {% endfor %}
