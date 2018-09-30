@@ -8,8 +8,8 @@ layout: default
   {% for post in site.posts %}
     <li>
       <a class="m-post-list__post" href="{{ post.url | prepend: site.baseurl }}">
-        {%- if post.thumbnail -%}
-          <img class="m-post-list__thumbnail" src="{{ post.thumbnail }}"></img>
+        {%- if post.cover -%}
+          <img class="m-post-list__cover" src="{{ post.cover }}"></img>
         {%- endif -%}
         <div class="m-post-list__text">
           <div class="m-post-list__title">
