@@ -2,7 +2,7 @@
 layout: post
 title: "Livetweeting Cambridge City Council Vote on Inman Square"
 date: 2018-06-04
-thumbnail: http://pbs.twimg.com/media/De7kwG5UEAAcOeJ.jpg
+thumbnail: /assets/2018-06-04-inman-square-livetweet/cover.jpg
 tweet: https://twitter.com/skyqrose/status/1003759515311984640
 ---
 
