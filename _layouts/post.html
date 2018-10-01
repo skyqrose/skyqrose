@@ -20,10 +20,21 @@ layout: default
   </div>
 
   {%- if page.tweet -%}
-    <a href="{{ page.tweet }}">
-      {% include social_icon.html icon="twitter" %}
-      See the discussion on twitter.
-    </a>
+    <p>
+      <a href="{{ page.tweet }}">
+        {% include social_icon.html icon="twitter" %}
+        See the discussion on Twitter.
+      </a>
+    </p>
+  {%- endif -%}
+
+  {%- if page.github -%}
+    <p>
+      <a href="{{ page.github }}">
+        {% include social_icon.html icon="github" %}
+        See the source on GitHub.
+      </a>
+    </p>
   {%- endif -%}
 
   {%- if site.disqus.shortname -%}
