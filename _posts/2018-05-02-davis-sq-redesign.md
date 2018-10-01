@@ -1,13 +1,17 @@
 ---
 layout: post
-title: "A Pedestrians-First Plan for Davis Square"
+title: "A Pedestrian-First Plan for Davis Square"
 date: 2018-05-02
-cover: /assets/2018-05-02-davis-sq-redesign/davis.png
+cover: /assets/2018-05-02-davis-sq-redesign/low-res.png
 tweet: https://twitter.com/skyqrose/status/867314846957801472
 github: https://github.com/skyqrose/davis-sq-redesign
+
+high-res: /assets/2018-05-02-davis-sq-redesign/high-res.png
 ---
 
-[<img alt="A map of Davis Square with more space for cyclists, pedestrians, and transit." src="{{ page.cover }}" style="box-shadow: 5px 5px 10px #888888">]({{ page.cover }})
+[<img alt="A map of Davis Square with more space for cyclists, pedestrians, and transit." src="{{ page.cover }}" style="box-shadow: 5px 5px 10px #888888">]({{ page.high-res }})
+
+[(high resolution)]({{ page.high-res }})
 
 This is a hypothetical map of Davis Square if space that's currently taken by cars was reallocated to walkers, bikers, and transit takers instead.
 
