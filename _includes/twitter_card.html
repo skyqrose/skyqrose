@@ -1,7 +1,7 @@
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="@skyqrose" />
 <meta name="twitter:creator" content="@skyqrose" />
-<meta property="og:url" content="{{ site.url }} ++ {{ page.url }}" />
+<meta property="og:url" content="{{ site.url }}{{ page.url }}" />
 <meta property="og:title" content="{{ page.title }}" />
 <meta property="og:site_name" content="skyqrose" />
 
@@ -21,11 +21,11 @@
 {%- endif -%}
 
 {%- if page.cover -%}
-  <meta property="og:image" content="{{ page.cover }}" />
+  <meta property="og:image" content="{{ site.url }}{{ page.cover }}" />
   {%- if page.cover_alt -%}
     <meta property="og:image:alt" content="{{ page.cover_alt }}" />
   {%- endif -%}
 {%- else -%}
-  <meta property="og:image" content="/assets/trains-trans-flag.png" />
+  <meta property="og:image" content="{{ site.url }}/assets/trains-trans-flag.png" />
 {%- endif -%}
 
