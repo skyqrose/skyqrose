@@ -3,6 +3,7 @@ layout: post
 title: "A Pedestrian-First Plan for Davis Square"
 date: 2018-05-02
 cover: /assets/2018-05-02-davis-sq-redesign/low-res.png
+cover_alt: "A map of Davis Square showing new pedestrian space, bike lanes, and bus lanes."
 tweet: https://twitter.com/skyqrose/status/867314846957801472
 github: https://github.com/skyqrose/davis-sq-redesign
 

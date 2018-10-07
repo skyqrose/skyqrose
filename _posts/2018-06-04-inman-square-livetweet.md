@@ -3,6 +3,7 @@ layout: post
 title: "Livetweeting Cambridge City Council Vote on Inman Square"
 date: 2018-06-04
 cover: /assets/2018-06-04-inman-square-livetweet/cover.jpg
+cover_alt: "A drawing of the plan for Inman Square showing protected bike lanes and a relocated Velucci Plaza"
 tweet: https://twitter.com/skyqrose/status/1003759515311984640
 ---
 

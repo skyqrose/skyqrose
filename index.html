@@ -9,7 +9,13 @@ layout: default
     <li>
       <a class="m-post-list__post" href="{{ post.url | prepend: site.baseurl }}">
         {%- if post.cover -%}
-          <img class="m-post-list__cover" src="{{ post.cover }}"></img>
+          <img
+            class="m-post-list__cover"
+            src="{{ post.cover }}"
+            {%- if post.cover_alt -%}
+              alt="{{ post.cover_alt }}"
+            {%- endif -%}
+          ></img>
         {%- endif -%}
         <div class="m-post-list__text">
           <div class="m-post-list__title">
