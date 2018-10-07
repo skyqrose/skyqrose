@@ -8,3 +8,24 @@ Built with jekyll. To run locally,
 * visit `localhost:4000`
 
 Because I use plugins, the site is built by Travis CI rather than Github. Commits pushed to master are automatically built by Travis and then pushed to the other repo, skyqrose/skyqrose.github.io
+
+## New Posts
+
+### Frontmatter
+
+```
+---
+title: Max 70 characters
+description: For use in Twitter cards. Max 200 characters
+date: e.g. 2018-01-01
+last_modified: (optional) e.g. 2018-01-02
+cover: Shown along with the title on the homepage and Twitter cards. e.g. /assets/2018-01-01-title/cover.png
+cover_alt: Description for the cover image
+tweet: (optional) Url of a tweet announcing, publishing, or discussing this article, in lieu of a comments section
+github: (optional) Url of the GitHub page, if it's hosted on GitHub
+---
+```
+
+### Assets
+
+Put all assets for a post in `/assets/2018-01-01-title/`

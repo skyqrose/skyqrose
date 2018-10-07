@@ -1,0 +1,31 @@
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@skyqrose" />
+<meta name="twitter:creator" content="@skyqrose" />
+<meta property="og:url" content="{{ site.url }} ++ {{ page.url }}" />
+<meta property="og:title" content="{{ page.title }}" />
+<meta property="og:site_name" content="skyqrose" />
+
+{%- if page.id -%}
+  <meta property="og:type" content="article" />
+  <meta property="og:article:published_time" content="{{ page.date }}" />
+  <meta property="og:article:author" content="Sky Rose" />
+  {%- if page.last_modified -%}
+    <meta property="og:article:modified_time" content="{{ page.last_modified }}" />
+  {%- endif -%}
+{%- else -%}
+  <meta property="og:type" content="website" />
+{%- endif -%}
+
+{%- if page.description -%}
+  <meta property="og:description" content="{{ page.description }}" />
+{%- endif -%}
+
+{%- if page.cover -%}
+  <meta property="og:image" content="{{ page.cover }}" />
+  {%- if page.cover_alt -%}
+    <meta property="og:image:alt" content="{{ page.cover_alt }}" />
+  {%- endif -%}
+{%- else -%}
+  <meta property="og:image" content="/assets/trains-trans-flag.png" />
+{%- endif -%}
+
