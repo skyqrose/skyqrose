@@ -3,24 +3,13 @@
  */
 .site-footer {
   @extend %content-width;
-
-  border-top: 1px solid $color-border-light;
-  margin-top: $spacing-unit;
-  padding-top: $spacing-unit;
-}
-
-.contact-list {
-  list-style: none;
-  margin-left: 0;
-}
-
-.footer-col-wrapper {
   @include relative-font-size(0.9375);
 
+  border-top: 1px solid $color-border-light;
   color: $color-text-gray;
   display: flex;
   justify-content: space-between;
-  margin-left: -$spacing-unit / 2;
+  margin-top: $spacing-unit;
 
   @include media-query-mobile {
     flex-wrap: wrap;
@@ -32,3 +21,7 @@
   margin-left: $spacing-unit / 2;
 }
 
+.contact-list {
+  list-style: none;
+  margin-left: 0;
+}
