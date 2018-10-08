@@ -43,6 +43,8 @@ ul, ol, dl, figure {
  * `main` element
  */
 main {
+  @extend %content-width;
+
   display: block; /* Default value of `display` of `main` element is 'inline' in IE 11. */
 }
 
@@ -160,20 +162,6 @@ pre {
     padding-right: 0;
     padding-left: 0;
   }
-}
-
-
-
-/**
- * Wrapper
- */
-.wrapper {
-  max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
-  max-width:         calc(#{$content-width} - (#{$spacing-unit}));
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: $spacing-unit / 2;
-  padding-left: $spacing-unit / 2;
 }
 
 

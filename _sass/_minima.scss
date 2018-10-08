@@ -9,18 +9,29 @@ $small-font-size:  $base-font-size * 0.875 !default;
 $base-line-height: 1.5 !default;
 
 $spacing-unit:     30px !default;
-
-$table-text-align: left !default;
-
-// Width of the content area
-$content-width:    800px !default;
+$content-width: 600px;
 
 @mixin media-query-mobile {
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: $content-width) {
     @content;
   }
 }
 
 @mixin relative-font-size($ratio) {
   font-size: $base-font-size * $ratio;
+}
+
+%content-width {
+  $_padding-size: calc(50% - #{$content-width} / 2 + #{$spacing-unit} / 2);
+  padding-left: $_padding-size;
+  padding-right: $_padding-size;
+  width: 100%;
+  max-width: calc(#{$content-width} - 2 * #{$spacing-unit} / 2);
+
+  @include media-query-mobile {
+    $_padding-size: calc(#{$spacing-unit} / 2);
+    padding-left: $_padding-size;
+    padding-right: $_padding-size;
+    width: calc(100% - 2 * #{$spacing-unit} / 2);
+  }
 }

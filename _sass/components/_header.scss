@@ -1,7 +1,6 @@
-/**
- * Site header
- */
 .c-header {
+  @extend %content-width;
+
   border-top: 5px solid $color-border;
   border-bottom: 1px solid $color-border;
   min-height: $spacing-unit * 1.865;

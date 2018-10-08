@@ -2,9 +2,11 @@
  * Site footer
  */
 .site-footer {
+  @extend %content-width;
+
   border-top: 1px solid $color-border-light;
   margin-top: $spacing-unit;
-  padding: $spacing-unit 0;
+  padding-top: $spacing-unit;
 }
 
 .contact-list {
