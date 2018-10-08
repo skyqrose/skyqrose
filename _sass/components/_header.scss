@@ -1,7 +1,7 @@
 /**
  * Site header
  */
-.site-header {
+.c-header {
   border-top: 5px solid $color-border;
   border-bottom: 1px solid $color-border;
   min-height: $spacing-unit * 1.865;
@@ -10,7 +10,7 @@
   position: relative;
 }
 
-.site-title {
+.c-header__title {
   @include relative-font-size(1.625);
   font-weight: 300;
   line-height: $base-line-height * $base-font-size * 2.25;
@@ -24,19 +24,19 @@
   }
 }
 
-.site-nav {
+.c-header__nav {
   float: right;
   line-height: $base-line-height * $base-font-size * 2.25;
 
-  .nav-trigger {
+  .c-header__nav-trigger {
       display: none;
   }
 
-  .menu-icon {
+  .c-header__menu-icon {
     display: none;
   }
 
-  .page-link {
+  .c-header__page-link {
     color: $color-text;
     line-height: $base-line-height;
 
@@ -55,7 +55,7 @@
     border-radius: 5px;
     text-align: right;
 
-    label[for="nav-trigger"] {
+    label[for="id-header__nav-trigger"] {
       display: block;
       float: right;
       width: 36px;
@@ -64,7 +64,7 @@
       cursor: pointer;
     }
 
-    .menu-icon {
+    .c-header__menu-icon {
       display: block;
       float: right;
       width: 36px;
@@ -78,17 +78,17 @@
       }
     }
 
-    input ~ .trigger {
+    input ~ .c-header__pages {
       clear: both;
       display: none;
     }
 
-    input:checked ~ .trigger {
+    input:checked ~ .c-header__pages {
       display: block;
       padding-bottom: 5px;
     }
 
-    .page-link {
+    .c-header__page-link {
       display: block;
       padding: 5px 10px;
 
