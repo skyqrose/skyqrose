@@ -194,6 +194,9 @@ pre {
  * Icons
  */
 .social-media-list {
+  list-style: none;
+  margin-left: 0;
+
   li + li {
     padding-top: 5px;
   }
