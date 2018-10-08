@@ -1,7 +1,4 @@
-/**
- * Site footer
- */
-.site-footer {
+.c-footer {
   @extend %content-width;
   @include relative-font-size(0.9375);
 
@@ -10,18 +7,20 @@
   display: flex;
   justify-content: space-between;
   margin-top: $spacing-unit;
+  padding-top: $spacing-unit;
 
   @include media-query-mobile {
     flex-wrap: wrap;
   }
 }
 
-.footer-col {
+.c-footer__col {
   flex: 1 1 33%;
-  margin-left: $spacing-unit / 2;
+  margin-right: $spacing-unit / 2;
+  min-width: $spacing-unit * 2;
 }
 
-.contact-list {
+.c-footer__contact-list {
   list-style: none;
   margin-left: 0;
 }

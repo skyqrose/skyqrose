@@ -1,7 +1,7 @@
-<footer class="site-footer">
+<footer class="c-footer">
   <data href="{{ "/" | relative_url }}"></data>
-  <div class="footer-col">
-    <ul class="contact-list">
+  <div class="c-footer__col">
+    <ul class="c-footer__contact-list">
       <li>
         {{ site.title | escape }}
       </li>
@@ -11,7 +11,7 @@
     </ul>
   </div>
 
-  <div class="footer-col">
+  <div class="c-footer__col">
     <ul class="social-media-list">
       <li>
         {% include social.html icon="twitter" url="https://www.twitter.com/" username="skyqrose" %}
@@ -22,7 +22,7 @@
     </ul>
   </div>
 
-  <div class="footer-col">
+  <div class="c-footer__col">
     <p>{{- site.description | escape -}}</p>
   </div>
 </footer>
