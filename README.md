@@ -15,6 +15,7 @@ Because I use plugins, the site is built by Travis CI rather than Github. Commit
 
 ```
 ---
+layout: post
 title: Max 70 characters
 description: For use in Twitter cards. Max 200 characters
 date: e.g. 2018-01-01
