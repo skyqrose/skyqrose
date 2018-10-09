@@ -6,3 +6,13 @@
 .c-post img {
   border: 1px solid $color-border-light;
 }
+
+.c-post__separator {
+  border: 0;
+  border-top: 4px dotted $color-border-light;
+  margin-bottom: $spacing-unit;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: $spacing-unit;
+  max-width: 100px;
+}

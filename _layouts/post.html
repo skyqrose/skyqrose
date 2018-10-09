@@ -15,29 +15,31 @@ layout: default
       {%- endif -%}</p>
   </header>
 
+  <hr class="c-post__separator">
+
   {{ content }}
 
-  <footer>
-    {%- if page.tweet -%}
-      <p>
-        <a href="{{ page.tweet }}">
-          {% include social_icon.html icon="twitter" %}
-          See the discussion on Twitter.
-        </a>
-      </p>
-    {%- endif -%}
+  {%- if page.tweet or page.github -%}
+    <hr class="c-post__separator">
 
-    {%- if page.github -%}
-      <p>
-        <a href="{{ page.github }}">
-          {% include social_icon.html icon="github" %}
-          See the source on GitHub.
-        </a>
-      </p>
-    {%- endif -%}
+    <footer>
+      {%- if page.tweet -%}
+        <p>
+          <a href="{{ page.tweet }}">
+            {% include social_icon.html icon="twitter" %}
+            See the discussion on Twitter.
+          </a>
+        </p>
+      {%- endif -%}
 
-    {%- if site.disqus.shortname -%}
-      {%- include disqus_comments.html -%}
-    {%- endif -%}
-  <footer>
+      {%- if page.github -%}
+        <p>
+          <a href="{{ page.github }}">
+            {% include social_icon.html icon="github" %}
+            See the source on GitHub.
+          </a>
+        </p>
+      {%- endif -%}
+    <footer>
+  {%- endif -%}
 </article>
