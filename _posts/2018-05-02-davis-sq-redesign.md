@@ -10,7 +10,7 @@ github: https://github.com/skyqrose/davis-sq-redesign
 high-res: /assets/2018-05-02-davis-sq-redesign/high-res.png
 ---
 
-[<img alt="A map of Davis Square with more space for cyclists, pedestrians, and transit." src="{{ page.cover }}" style="box-shadow: 5px 5px 10px #888888">]({{ page.high-res }})
+[<img alt="A map of Davis Square with more space for cyclists, pedestrians, and transit." src="{{ page.cover }}">]({{ page.high-res }})
 
 [(high resolution)]({{ page.high-res }})
 

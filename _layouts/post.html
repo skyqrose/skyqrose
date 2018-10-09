@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<article itemscope itemtype="http://schema.org/BlogPosting">
+<article class="c-post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header>
     <h1 itemprop="name headline">{{ page.title | escape }}</h1>
@@ -15,29 +15,29 @@ layout: default
       {%- endif -%}</p>
   </header>
 
-  <div class="post-content" itemprop="articleBody">
-    {{ content }}
-  </div>
+  {{ content }}
 
-  {%- if page.tweet -%}
-    <p>
-      <a href="{{ page.tweet }}">
-        {% include social_icon.html icon="twitter" %}
-        See the discussion on Twitter.
-      </a>
-    </p>
-  {%- endif -%}
+  <footer>
+    {%- if page.tweet -%}
+      <p>
+        <a href="{{ page.tweet }}">
+          {% include social_icon.html icon="twitter" %}
+          See the discussion on Twitter.
+        </a>
+      </p>
+    {%- endif -%}
 
-  {%- if page.github -%}
-    <p>
-      <a href="{{ page.github }}">
-        {% include social_icon.html icon="github" %}
-        See the source on GitHub.
-      </a>
-    </p>
-  {%- endif -%}
+    {%- if page.github -%}
+      <p>
+        <a href="{{ page.github }}">
+          {% include social_icon.html icon="github" %}
+          See the source on GitHub.
+        </a>
+      </p>
+    {%- endif -%}
 
-  {%- if site.disqus.shortname -%}
-    {%- include disqus_comments.html -%}
-  {%- endif -%}
+    {%- if site.disqus.shortname -%}
+      {%- include disqus_comments.html -%}
+    {%- endif -%}
+  <footer>
 </article>

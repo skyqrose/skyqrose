@@ -1,8 +1,8 @@
-.c-post {
-  margin-bottom: $spacing-unit;
-}
-
-.c-post__title-meta {
+.c-post__meta {
   font-size: $small-font-size;
   color: $color-text-gray;
+}
+
+.c-post img {
+  border: 1px solid $color-border-light;
 }
