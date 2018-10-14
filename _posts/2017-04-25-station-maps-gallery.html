@@ -156,7 +156,11 @@ If you find any that aren't here, please send them to me.
     <li class="p-station-maps__list-item">
       {{ map.desc }}
 
-      <img src="/assets/2017-04-25-station-maps-gallery/{{ category.dir }}/{{ map.file }}" alt="{{ map.alt }}">
+      {%- if map.file -%}
+        <a href="{{ map.file }}">
+          <img src="/assets/2017-04-25-station-maps-gallery/{{ category.dir }}/{{ map.file }}" alt="{{ map.alt }}">
+        </a>
+      {%- endif -%}
 
       {%- for link in map.links -%}
         <a
