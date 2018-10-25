@@ -32,7 +32,7 @@ Geoff Diehl (R)
 
 Diehl and Shiva are both far-right. This one is obvious.
 
-## Attourney General
+## Attorney General
 **Maura Healey** (D, Incumbent)  
 over  
 James McMahon (R)  
