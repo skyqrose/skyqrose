@@ -3,6 +3,7 @@ layout: post
 title: Who I'm Voting For, MA State Election 2018
 description: I'm transgender, progressive, and politically active. Here's who I'm planning to vote for in all the MA statewide races, and why.
 date: 2018-10-25
+tweet: https://twitter.com/skyqrose/status/1055328142854930432
 ---
 
 Here's how I'm planning to vote in all the statewide races, and why. Hopefully this will help you make your decisions.
