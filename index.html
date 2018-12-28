@@ -6,27 +6,29 @@ layout: default
 
 <ul class="m-post-list__list">
   {% for post in site.posts %}
-    <li>
-      <a class="m-post-list__post" href="{{ post.url | prepend: site.baseurl }}">
-        {%- if post.cover -%}
-          <img
-            class="m-post-list__cover"
-            src="{{ post.cover }}"
-            {%- if post.cover_alt -%}
-              alt="{{ post.cover_alt }}"
-            {%- endif -%}
-          ></img>
-        {%- endif -%}
-        <div class="m-post-list__text">
-          <div class="m-post-list__title">
-            {{ post.title | escape }}
+    {%- unless post.unlisted -%}
+      <li>
+        <a class="m-post-list__post" href="{{ post.url | prepend: site.baseurl }}">
+          {%- if post.cover -%}
+            <img
+              class="m-post-list__cover"
+              src="{{ post.cover }}"
+              {%- if post.cover_alt -%}
+                alt="{{ post.cover_alt }}"
+              {%- endif -%}
+            ></img>
+          {%- endif -%}
+          <div class="m-post-list__text">
+            <div class="m-post-list__title">
+              {{ post.title | escape }}
+            </div>
+            <div class="m-post-list__meta">
+              {{ post.date | date: "%b %-d, %Y" }}
+            </div>
           </div>
-          <div class="m-post-list__meta">
-            {{ post.date | date: "%b %-d, %Y" }}
-          </div>
-        </div>
-      </a>
-    </li>
+        </a>
+      </li>
+    {%- endif -%}
   {% endfor %}
 </ul>
 
