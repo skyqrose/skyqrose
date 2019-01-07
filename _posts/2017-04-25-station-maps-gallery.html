@@ -166,8 +166,13 @@ If you find any that aren't here, please send them to me.
       {{ map.desc }}
 
       {%- if map.file -%}
-        <a href="{{ map.file }}">
-          <img src="/assets/2017-04-25-station-maps-gallery/{{ category.dir }}/{{ map.file }}" alt="{{ map.alt }}">
+        {%- assign full_path = "/assets/2017-04-25-station-maps-gallery/"
+          | append: category.dir
+          | append: "/"
+          | append: map.file
+        -%}
+        <a href="{{ full_path }}">
+          <img src="{{ full_path }}" alt="{{ map.alt }}">
         </a>
       {%- endif -%}
 
