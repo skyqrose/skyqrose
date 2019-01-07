@@ -5,14 +5,29 @@ layout: default
 
   <header>
     <h1 itemprop="name headline">{{ page.title | escape }}</h1>
+    {%- if page.author -%}
+      <p class="c-post__meta">
+        <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <span itemprop="name">
+            {{ page.author }}
+          </span>
+        </span>
+      </p>
+    {%- endif -%}
+    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
     <p class="c-post__meta">
       <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         {{ page.date | date: date_format }}
       </time>
-      {%- if page.author -%}
-        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
-      {%- endif -%}</p>
+    </p>
+    {%- if page.last_modified -%}
+      <p class="c-post__meta">
+        Last modified:
+        <time datetime="{{ page.last_modified | date_to_xmlschema }}" itemprop="dateModified">
+          {{ page.last_modified | date: date_format }}
+        </time>
+      </p>
+    {%- endif -%}
   </header>
 
   <hr class="c-post__separator">
