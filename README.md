@@ -3,6 +3,7 @@
 The source for my personal website. The build products are hosted by Github Pages over at skyqrose/skyqrose.github.io
 
 Built with jekyll. To run locally,
+* [Install jekyll](https://jekyllrb.com/docs/installation/)
 * `bundle install`
 * `bundle exec jekyll serve`
 * visit `localhost:4000`
