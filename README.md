@@ -31,3 +31,5 @@ github: (optional) Url of the GitHub page, if it's hosted on GitHub
 ### Assets
 
 Put all assets for a post in `/assets/2018-01-01-title/`
+
+Anything that's being rehosted/mirrored/archived from somewhere else can go in `/assets/rehosted/`
